@@ -536,7 +536,7 @@ html,body{
     padding-top: 60px;
 }
 .we-do-description {
-    padding: 55px 0 70px;
+    padding: 5px 0 70px;
 }
 .single-we-do-box  {
     box-shadow:0 0 5px rgba(35,37,41,.1);
@@ -1019,7 +1019,7 @@ a:active.learn-btn{
 		10.	Pricing 
 --------------------------------------*/
 .pricing{
-	padding:115px 0 78px;
+	padding:0
 }
 .pricing-content {
     padding-top: 105px;
@@ -1331,7 +1331,7 @@ a:active.learn-btn{
 		14. Contact
 --------------------------------------*/
 .contact {
-    padding: 115px 0 120px;
+    padding: 50px 0 30px;
     background:url(../../assets/images/footer/map.jpg)no-repeat;
 	background-position:center;
 	background-size: cover;
@@ -1358,7 +1358,7 @@ a:active.learn-btn{
 	font-size: 24px;
 	font-family: 'Poppins', sans-serif;
 	text-transform:capitalize;
-	margin-bottom:40px;
+	margin-bottom:0;
 }
 /*contact-head */
 

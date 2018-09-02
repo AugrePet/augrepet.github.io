@@ -11,14 +11,14 @@
 		
 
         <!--font-family-->
-		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
 		
-		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Poppins:400,700,900" rel="stylesheet">
 		
-		<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
 		
         <!-- TITLE OF SITE -->
-        <title>Zombiz</title>
+        <title>AugrePet</title>
 
         <!-- for title img -->
 		<link rel="shortcut icon" type="image/icon" href="assets/images/logo/favicon.png"/>
@@ -31,23 +31,13 @@
 		
 		<!--animate.css-->
         <link rel="stylesheet" href="assets/css/animate.css">
-		
-		<!--hover.css-->
-        <link rel="stylesheet" href="assets/css/hover-min.css">
-		
-		<!--vedio player css-->
-        <link rel="stylesheet" href="assets/css/magnific-popup.css">
 
 		<!--owl.carousel.css-->
         <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
 		<link href="assets/css/owl.theme.default.min.css" rel="stylesheet"/>
 
-
         <!--bootstrap.min.css-->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		
-		<!-- bootsnav -->
-		<link href="assets/css/bootsnav.css" rel="stylesheet"/>	
         
         <!--style.css-->
         <link rel="stylesheet" href="assets/css/style.css">
@@ -62,6 +52,60 @@
 			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+        <style type="text/css">
+			#countdown{
+				width: 100%;
+				height: auto;
+				text-align: center;
+				background: none;
+				margin: auto;
+				padding: 50px 0;
+				position: relative;
+			}
+
+			#countdown #tiles{
+				position: relative;
+				z-index: 1;
+			}
+
+			#countdown #tiles > span{
+				width: 60px;
+				max-width: 60px;
+				font: bold 30px 'Droid Sans', Arial, sans-serif;
+				text-align: center;
+				color: #44454f;
+				background-color: #ddd;
+				background-image: -webkit-linear-gradient(top, #bbb, #eee); 
+				background-image:    -moz-linear-gradient(top, #bbb, #eee);
+				background-image:     -ms-linear-gradient(top, #bbb, #eee);
+				background-image:      -o-linear-gradient(top, #bbb, #eee);
+				border-top: 1px solid #fff;
+				border-radius: 3px;
+				box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.7);
+				margin: 0 7px;
+				padding: 18px 0;
+				display: inline-block;
+				position: relative;
+			}
+
+			#countdown .labels{
+				width: 100%;
+				height: 25px;
+				text-align: center;
+				position: relative;
+				padding-top: 10px;
+				bottom: 0px;
+			}
+
+			#countdown .labels li{
+				width: 70px;
+				font-weight: bold;
+				color: #44454f;
+				text-align: center;
+				text-transform: uppercase;
+				display: inline-block;
+			}
+        </style>
 
     </head>
 	
@@ -89,11 +133,9 @@
 									<div class="col-sm-12">
 										<div class="single-slide-item-content">
 											<h2>Imagine</h2>
+											<p>... that you could have your pet living in your phone.</p>
 											<p>
-												... that you could have your pet living in your phone.
-											</p>
-											<p>
-												Welcome to AugrePet!<br>
+												Welcome to <b>AugrePet</b>!<br>
 												You can bring your pet wherever you go, and you can see your pet interact with the environment around you. Play with your pet, feed it snacks, dress it up, all with a convenient tap on your phone.
 											</p>
 											<li style="display: inline" class="smooth-menu"><a href="#about">
@@ -119,12 +161,10 @@
 									<div class="col-sm-12">
 										<div class="single-slide-item-content">
 											<h2>Imagine</h2>
+											<p>... that your pet could go where no other pet has gone.</p>
 											<p>
-												... that your pet could go where no other pet has gone.
-											</p>
-											<p>
-												Welcome to AugrePet!<br>
-												If you can take your phone there, then you can take your pet there! Watch your pet climb mountains with you, or sail in the deep blue oceans. Take your pet on the plane with you and see it bounce across the seats of fellow passengers!
+												Welcome to <b>AugrePet</b>!<br>
+												If you can take your phone there, then you can take your pet there! Bring your pet mountain climbing, sail across the deep blue seas, or simply to your favourite cafe. The possibilities are endless!
 											</p>
 											<li style="display: inline" class="smooth-menu"><a href="#about">
 												<button type="button" class="slide-btn">
@@ -161,12 +201,24 @@
 			<div class="container">
 				<div class="we-do-details">
 					<div class="section-header text-center">
-						<h2>AugrePet</h2>
-						<p>
-							AugrePet is short for Augmented Reality Pet. We believe in taking our love for caring for critters to the next evolutionary step: Augmented Reality.
-						</p>
+						<div class="row">
+							<div class="col-sm-offset-2 col-sm-8 col-xs-12">
+								<h2>The humble beginnings of AugrePet</h2>
+								<p>
+									AugrePet is short for Augmented Reality Pet.<br/>
+									We believe in taking our love for caring for critters to the next evolutionary step:<br/>
+									<b>Augmented Reality</b>
+								</p>
+								<p>
+									We first came about this idea when one of our team, Herald, wanted to get a pet. However, due to a myriad of reasons that we will not cover here, Herald was unable to get a real-life pet for himself. Looking at the current state of pet applications and devices made him despair, so he roped us together and formed this team to begin work on AugrePet.
+								</p>
+							</div>
+						</div>
 					</div><!--/.section-header-->
 					<div class="we-do-carousel">
+						<div class="section-header text-center">
+							<h2>A Sneak Peek</h2>
+						</div>
 						<div class="row">
 							<div class="col-sm-4 col-xs-12">
 								<div class="single-we-do-box text-center">
@@ -185,7 +237,8 @@
 										</div><!--/.we-do-info-->
 										<div class="we-do-comment">
 											<p>
-												This app is waaaay cool! We use AR to bring you digital pets that you can play with. How cool is that?
+												Use AR to bring your pet out!<br/>
+												How cool is that?
 											</p>
 										</div><!--/.we-do-comment-->
 									</div><!--/.we-do-description-->
@@ -208,7 +261,8 @@
 										</div><!--/.we-do-info-->
 										<div class="we-do-comment">
 											<p>
-												This app is cuteless overload! Cute factor over level 9000!
+												Cutomize how your pet looks like<br/>
+												With aCUTE angle of over 9000&deg;!
 											</p>
 										</div><!--/.we-do-comment-->
 									</div><!--/.we-do-description-->
@@ -232,7 +286,8 @@
 										</div><!--/.we-do-info-->
 										<div class="we-do-comment">
 											<p>
-												Make great friends and visit each other's virtual pet!
+												Bond over your awesome pets.<br/>
+												Play exciting games with new friends!
 											</p>
 										</div><!--/.we-do-comment-->
 									</div><!--/.we-do-description-->
@@ -246,54 +301,77 @@
 		</section><!--/.we-do-->
 		<!--we-do end-->
 
+<section id="pricing" class="pricing">
+			<div class="container">
+				<div class="pricing-details">
+					<div class="section-header text-center">
+						<h2 class="price-head">Time to launch</h2>
+						<p>
+							Our product is currently in beta testing phase.<br/>
+							We will be launching AugrePet in Apple App Store and Google Play Store on <b>20th November 2018</b>! 
+						</p>
+						<div class="row">
+							<div id="countdown">
+								<div id='tiles'></div>
+								<div class="labels">
+									<li>Days</li>
+									<li>Hours</li>
+									<li>Mins</li>
+									<li>Secs</li>
+								</div>
+							</div>
+						</div><!--/.row-->
+					</div><!--/.section-header-->
+				</div><!--/.pricing-details-->
+			</div><!--/.container-->
+
+		</section><!--/.pricing-->
+		<!--pricing end-->
+
 		<!--contact start-->
 		<section id="contact"  class="contact">
 			<div class="container">
 				<div class="contact-details">
 					<div class="section-header contact-head  text-center">
 						<h2>contact us</h2>
-						<p>
-							Hi, we're the game developers and we would like to hear your thoughts about this game! Are you excited already? Or perhaps you have a fantastic idea for the game that we MUST MUST MUST implement! We'd love to know your thoughts, or answer any questions if you have any! Leave us a message :)
-						</p>
+						<div class="row">
+							<div class="col-md-offset-1 col-md-5 col-sm-12">
+							
+							</div>
+							<div class="col-md-offset-1 col-md-5 col-sm-12">
+							
+							</div>
+						</div>
 					</div><!--/.section-header-->
 					<div class="contact-content">
 						<div class="row">
-							<div class="col-sm-offset-1 col-sm-5">
-								<div class="single-contact-box">
-									<div class="contact-right">
-										<div class="contact-adress">
-											<div class="contact-office-address">
-												<h3>contact info</h3>
-												<p>
-													13 Computing Drive, Singapore 117417
-												</p>
-												<div class="contact-online-address">
-													<div class="single-online-address">
-														<i class="fa fa-envelope-o"></i>
-														<span>augrepet@gmail.com</span>
-													</div><!--/.single-online-address-->
-												</div><!--/.contact-online-address-->
-											</div><!--/.contact-office-address-->
-											<div class="contact-office-address">
-												<h3>social partner</h3>
-												<div class="contact-icon">
-													<ul>
-														<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li><!--/li-->
-														<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li><!--/li-->
-														<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li><!--/li-->
-														<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li><!--/li-->
-													</ul><!--/ul-->
-												</div><!--/.contact-icon-->
-											</div><!--/.contact-office-address-->
-											
-										</div><!--/.contact-address-->
-									</div><!--/.contact-right-->
+							<div class="col-sm-offset-1 col-sm-5 col-xs-offset-1 col-xs-10">
+								<div class="single-contact-box" style="padding-top: 50px;">
+									<div class="section-header contact-head  text-center">
+										<p style="margin-top:0;">
+											Hi, we're the game developers and we would like to know your thoughts about this game!<br/>
+											Are you excited already?<br/> Want to join us as a beta tester first?<br/>
+											Leave us a message!
+										</p>
+										<p>
+											Perhaps you have a fantastic idea for the game that MUST be implemented!<br/>
+											We'd love to hear your ideas, or answer any questions if you have any!<br/>
+											Drop us a note :)
+										</p>
+									</div>
 								</div><!--/.single-contact-box-->
 							</div><!--/.col-->
-							<div class="col-sm-5">
+							<div class="col-sm-5 col-xs-offset-1 col-xs-10">
 								<div class="single-contact-box">
 									<div class="contact-form">
-										<h3>Leave us a Message Here</h3>
+										<h3>Leave us a Message</h3>
+										<div class="contact-right">
+											<div class="contact-online-address">
+												<div class="single-online-address">
+													<i class="fa fa-envelope-o"></i><span>augrepet@gmail.com</span>
+												</div><!--/.single-online-address-->
+											</div><!--/.contact-online-address-->
+										</div><!--/.contact-right-->
 										<form method="POST" action="https://formspree.io/augrepet@gmail.com">
 											<div class="row">
 												<div class="col-sm-12">
@@ -340,21 +418,16 @@
 
 		<script src="assets/js/jquery.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
-        
+
         <!--modernizr.min.js-->
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-		
 		
 		<!--bootstrap.min.js-->
         <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 		
-		<!-- bootsnav js -->
-		<script src="assets/js/bootsnav.js"></script>
-		
 		<!-- for manu -->
 		<script src="assets/js/jquery.hc-sticky.min.js" type="text/javascript"></script>
 
-		
 		<!-- vedio player js -->
 		<script src="assets/js/jquery.magnific-popup.min.js"></script>
 
@@ -373,9 +446,39 @@
 		<script src="assets/js/waypoints.min.js"></script>
 		
         <!--Custom JS-->
-        <script type="text/javascript" src="assets/js/jak-menusearch.js"></script>
         <script type="text/javascript" src="assets/js/custom.js"></script>
 		
+		<script type="text/javascript">var target_date = new Date(2018, 11, 20); // set the countdown date
+var days, hours, minutes, seconds; // variables for time units
+
+var countdown = document.getElementById("tiles"); // get tag element
+
+getCountdown();
+
+setInterval(function () { getCountdown(); }, 1000);
+
+function getCountdown(){
+
+	// find the amount of "seconds" between now and target
+	var current_date = new Date().getTime();
+	var seconds_left = (target_date - current_date) / 1000;
+
+	days = pad( parseInt(seconds_left / 86400) );
+	seconds_left = seconds_left % 86400;
+		 
+	hours = pad( parseInt(seconds_left / 3600) );
+	seconds_left = seconds_left % 3600;
+		  
+	minutes = pad( parseInt(seconds_left / 60) );
+	seconds = pad( parseInt( seconds_left % 60 ) );
+
+	// format countdown string + set tag value
+	countdown.innerHTML = "<span>" + days + "</span><span>" + hours + "</span><span>" + minutes + "</span><span>" + seconds + "</span>"; 
+}
+
+function pad(n) {
+	return (n < 10 ? '0' : '') + n;
+}</script>		
 
     </body>
 	
