@@ -372,6 +372,7 @@ html,body{
     padding: 17px 50px;
     color: #5549af;
     border: 1px solid #f5f5fb;
+    border-radius: 10px;
 	font-size:16px;
 	font-weight:600;
 	text-transform: uppercase;
@@ -536,7 +537,7 @@ html,body{
     padding-top: 60px;
 }
 .we-do-description {
-    padding: 5px 0 70px;
+    padding: 5px 0 20px;
 }
 .single-we-do-box  {
     box-shadow:0 0 5px rgba(35,37,41,.1);
